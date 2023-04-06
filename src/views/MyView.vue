@@ -1,7 +1,9 @@
 <script>
 import SingleComponent from '../components/myComponents/SingleComponent.vue';
 import RawHtmlData from '../components/myComponents/RawHtmlData.vue';
-export default { components: {SingleComponent, RawHtmlData} };
+import DirectiveVShow from '../components/myComponents/directives/DirectiveVShow.vue';
+import DirectiveVIf from '../components/myComponents/directives/DirectiveVIf.vue';
+export default { components: { SingleComponent, RawHtmlData, DirectiveVShow, DirectiveVIf } };
 </script>
 
 <template>
@@ -13,6 +15,9 @@ export default { components: {SingleComponent, RawHtmlData} };
     --------------------
     <SingleComponent/>
     --------------------
+    <DirectiveVShow/>
+    --------------------
+    <DirectiveVIf/>
     
   </div>
 </template>
