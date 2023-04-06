@@ -6,8 +6,9 @@ import DirectiveVIf from '../components/myComponents/directives/DirectiveVIf.vue
 import DirectiveVModel from '../components/myComponents/directives/DirectiveVModel.vue';
 import DirectiveVFor from '../components/myComponents/directives/DirectiveVFor.vue';
 import ComputedProps from '../components/myComponents/computed-properties/ComputedProps.vue';
+import ParentComponent from '../components/myComponents/props/ParentComponent.vue';
 
-export default { components: { SingleComponent, RawHtmlData, DirectiveVShow, DirectiveVIf, DirectiveVModel, DirectiveVFor, ComputedProps } };
+export default { components: { SingleComponent, RawHtmlData, DirectiveVShow, DirectiveVIf, DirectiveVModel, DirectiveVFor, ComputedProps, ParentComponent } };
 </script>
 
 <template>
@@ -28,6 +29,8 @@ export default { components: { SingleComponent, RawHtmlData, DirectiveVShow, Dir
     <DirectiveVFor/>
     --------------------
     <ComputedProps/>
+    --------------------
+    <ParentComponent/>
     
   </div>
 </template>
